@@ -6,3 +6,6 @@ realsense pcl
 
 output
 tf
+
+TODO:
+read pcl_ros
