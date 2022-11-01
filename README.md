@@ -7,5 +7,10 @@ realsense pcl
 output
 tf
 
-TODO:
-read pcl_ros
+By using pcl_ros and the following command, either bag or topic can be transformed to pcd.
+
+rosrun pcl_ros bag_to_pcd <input_file.bag> <topic> <output_directory>
+
+rosrun pcl_ros pointcloud_to_pcd input:=/velodyne/pointcloud2
+
+plz refer http://wiki.ros.org/pcl_ros
